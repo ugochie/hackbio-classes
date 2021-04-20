@@ -1,0 +1,41 @@
+question 1
+DNA = input (“DNA STRANDS:/n”)
+
+question 2
+Range (4, 10): Print (“4,10”)
+
+question 3
+X=10 while x=5
+
+question 4
+
+
+question 5
+nano myscript
+(base) ugochi@hackbio:~$ ls
+bin          ibt2016   output           R              sratoolkit.tar.gz
+chrY_father  myscript  paternity.fasta  results.fasta
+(base) ugochi@hackbio:~$ chmod +x myscript
+(base) ugochi@hackbio:~$ ./myscript
+HELLO BRIAN!
+(base) ugochi@hackbio:~$ nano myscript
+(base) ugochi@hackbio:~$ ./myscript
+HELLO BRIAN!
+HOW ARE YOU DOING?!
+(base) ugochi@hackbio:~$
+
+question 6
+grep ">" file.fasta | wc -l
+
+ugochi@hackbio:~$ nano exams_fasta
+ugochi@hackbio:~$ grep ">" exam_fasta | wc -l
+ugochi@hackbio:~$ grep ">" exams_fasta | wc -l
+0
+
+
+question 7
+
+LINES=`cat file.fastq | wc -l`
+READS=`expr $LINES / 4`
+echo $READS
+

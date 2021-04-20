@@ -1,0 +1,15 @@
+STATISTICS TESTING
+UGOCHI EZE
+1.	Population
+2.	Sample 
+3.	Statistics 
+4.	Parameter
+
+2b. Steps in hypothesis testing
+a. Create a null hypothesis H0
+b. create Alternate hypothesis Ha
+c. Test statistics
+d. Accept null hypothesis or Reject null hypothesis
+e. Present findings
+
+

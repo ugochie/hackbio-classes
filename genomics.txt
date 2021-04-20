@@ -1,0 +1,31 @@
+GENOMICS ASSIGNMENT
+EZE UGOCHI LILIAN
+List of commands used
+(base) ugochi@hackbio :source ../../opt/opt/bin/activate
+(base) ugochi@hackbio :~/genomics$ mkdir exam
+ (base) ugochi@hackbio:~$ cd exam
+(base) ugochi@hackbio:~/exam$ ls
+(base) ugochi@hackbio:~/exam$ pwd
+/home/ugochi/exam
+(base) ugochi@hackbio:~/exam$ ls
+(base) ugochi@hackbio:~/exam$ cd ..
+(base) ugochi@hackbio:~$ ls
+bin          dna   fastq    myscript  paternity.fasta  results.fasta
+chrY_father  exam  ibt2016  output    R                sratoolkit.tar.gz
+(base) ugochi@hackbio:~$ cd fastq
+(base) ugochi@hackbio:~/fastq$ ls
+SRR2093871_pass_1.fastq.gz  SRR2093871_pass_2.fastq.gz
+ (base) ugochi@hackbio:~/fastq$
+(base) ugochi@hackbio:~/fastq$ fastqc SRR2093871_pass_1.fastq.gz
+Started analysis of SRR2093871_pass_1.fastq.gz
+ugochi@hackbio:~$ cd fastq
+ugochi@hackbio:~/fastq$ cd assembly
+ugochi@hackbio:~/fastq/assembly$
+ugochi@hackbio:~/fastq/assembly$ cd ..
+ugochi@hackbio:~/fastq$ cd ..
+ugochi@hackbio:~$ source ../../opt/opt/bin/activate
+To check the quality of my assembly using quastc, I created a conda environment
+(base) ugochi@hackbio:~$ conda activate genomics
+(genomics) ugochi@hackbio:~$ cd fastq
+(genomics) ugochi@hackbio:~/fastq$ cd assembly
+(genomics) ugochi@hackbio:~/fastq/assembly$ quast.py -o report -m 0 --threads 2 K55/scaffolds.fasta
